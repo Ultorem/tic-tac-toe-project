@@ -1,0 +1,72 @@
+#title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 1px #000;
+}
+
+#ticTacToeBoard {
+    width: 330px;
+    height: 330px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #eee;
+}
+
+.cell:active {
+    background-color: #ddd;
+}
+
+.resetButton:active {
+    background-color: #ddd;
+}
+
+
+#resetButton {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#resetButton:hover {
+    background-color: #eee;
+}
+
+
+.mainContainer {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
